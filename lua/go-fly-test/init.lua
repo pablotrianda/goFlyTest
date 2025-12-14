@@ -37,17 +37,12 @@ function M.open_menu()
 end
 
 function M.setup()
-  vim.api.nvim_create_autocmd("FileType", {
-    pattern = "go",
-    callback = function()
-      vim.keymap.set(
-        "n",
-        "<leader>t",
-        M.open_menu,
-        { buffer = true, desc = "Go Test Menu" }
-      )
-    end,
-  })
+  vim.keymap.set(
+    "n",
+    "<leader>t",
+    M.open_menu,
+    { buffer = true, desc = "Go Test Menu" }
+  )
 end
 
 return M
