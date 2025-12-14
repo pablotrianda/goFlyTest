@@ -1,9 +1,9 @@
-# 🧪 Test Golang Neovim
+# 🧪🚀​⚡​ Go Fly Test
 
-Run the golang tests using [vim-go](https://github.com/fatih/vim-go) commands
+Run the Golang tests using [vim-go](https://github.com/fatih/vim-go) commands
 
 
-![img](https://i.imgur.com/6sGNCU6.png)
+![img](https://i.imgur.com/FvaoDS0.png)
 
 
 ## 📦 Installation
@@ -15,9 +15,8 @@ Install the plugin with your preferred package manager:
 ```lua
 -- Lua
 {
-	"pablotrianda/test-golang",
+	"pablotrianda/goFlyTest",
 	dependencies = {
-		"anuvyklack/hydra.nvim",
 		"fatih/vim-go"
 	},
 	config = true,
